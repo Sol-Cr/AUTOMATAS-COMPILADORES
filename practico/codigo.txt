@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num1, num2;
+//Holaaa
+    cout << "Ingresa el primer numero: ";
+    cin >> num1;
+//examen
+    cout << "Ingresa el segundo numero: ";
+    cin >> num2;
+
+    cout << "\nResultados de las operaciones aritméticas:\n";
+    cout << "Suma: " << num1 + num2 << endl;
+    cout << "Resta: " << num1 - num2 << endl;
+    cout << "Multiplicacion: " << num1 * num2 << endl;
+
+    if (num2 != 0) {
+        cout << "Division: " << num1 / num2 << endl;
+        cout << "Residuo (modulo): " << num1 % num2 << endl;
+    } else {
+        cout << "No se puede dividir entre cero." << endl;
+    }
+
+    return 0;
+}
+
